@@ -1,0 +1,26 @@
+{
+  "name": "websocket",
+  "version": "1.0.0",
+  "description": "a simple chatroom",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thealiqaf/socket.io-chatroom.git"
+  },
+  "author": "thealiqaf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thealiqaf/socket.io-chatroom/issues"
+  },
+  "homepage": "https://github.com/thealiqaf/socket.io-chatroom#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "moment": "^2.30.1",
+    "nodemon": "^3.1.9",
+    "socket.io": "^4.8.1"
+  }
+}
